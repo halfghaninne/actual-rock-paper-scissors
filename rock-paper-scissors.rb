@@ -16,7 +16,7 @@ require_relative 'player'
 class RockPaperScissors
   
   attr_accessor :p1, :p2
-  
+   
   # Public: .new (initialize)
   # Starts a new game between two user-inputted players. Plays however many rounds the user desires.
   # 
@@ -93,4 +93,3 @@ end
 
 
 end
-
