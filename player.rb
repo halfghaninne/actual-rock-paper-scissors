@@ -14,10 +14,10 @@ require 'pry'
 
 class Player
    
-  attr_reader :name :score
+  attr_reader :name, :score
   
   def initialize(name)
-    @name = name
+    @name = name.to_s
     @score = 0
     
     puts @score #Move or delete this later.
