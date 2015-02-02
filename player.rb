@@ -20,7 +20,6 @@ class Player
     @name = name.to_s
     @score = 0
     
-    puts @score #Move or delete this later.
   end
   
   # Public: .add_point

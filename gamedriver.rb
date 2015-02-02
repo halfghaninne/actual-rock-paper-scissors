@@ -28,3 +28,5 @@ class Game
 
   
 end
+
+binding.pry

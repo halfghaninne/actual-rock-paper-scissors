@@ -35,6 +35,8 @@ class RockPaperScissors
   def initialize(p1, p2, number_of_rounds)
     player_1 = Player.new(p1)
     player_2 = Player.new(p2)
+    
+    n = number_of_rounds.to_f
         
     # if Integer(number_of_rounds) == false
     #   puts "Oops! Please enter an integer for the number of rounds you'd like to play."
